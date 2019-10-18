@@ -9,9 +9,9 @@ import subprocess
 FILE_PATH = os.path.dirname(os.path.realpath(__file__))+"/"
 USER = getpass.getuser()
 HOME = "/home/%s/" % USER
-BASHRC = HOME + ".bashrc"
+BASHRC = HOME + "afs/.confs/bashrc"
 ALIASES = HOME + ".bash_aliases"
-I3CONF = HOME + ".config/i3/config"
+I3CONF = HOME + "afs/.confs/config/i3/config"
 SAVE = HOME + ".config/.vinrc/"
 
 backup_files = [BASHRC, ALIASES, I3CONF]
